@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MessageCell" customModule="NearbyStores" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="444" height="51"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="444" height="51"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JLz-Eu-44w">
+                        <rect key="frame" x="0.0" y="0.0" width="444" height="51"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d0T-go-bY7">
+                                <rect key="frame" x="0.0" y="0.0" width="444" height="51"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10,  Jun 2018" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4CG-8p-UFE">
+                                        <rect key="frame" x="8" y="33.5" width="428" height="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XY6-j9-1WI" customClass="EdgeLabel" customModule="NearbyStores" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="8" width="42" height="20.5"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="10" id="dbr-2E-3GK"/>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="280" id="tOr-5a-PCD"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="XY6-j9-1WI" secondAttribute="trailing" priority="250" constant="8" id="23O-t1-FU6"/>
+                                    <constraint firstAttribute="trailing" secondItem="4CG-8p-UFE" secondAttribute="trailing" constant="8" id="FVo-Qp-1VH"/>
+                                    <constraint firstItem="4CG-8p-UFE" firstAttribute="top" secondItem="XY6-j9-1WI" secondAttribute="bottom" constant="5" id="Guj-TE-8pn"/>
+                                    <constraint firstItem="XY6-j9-1WI" firstAttribute="leading" secondItem="d0T-go-bY7" secondAttribute="leading" priority="750" constant="8" id="aTj-xr-Gyx"/>
+                                    <constraint firstAttribute="bottom" secondItem="4CG-8p-UFE" secondAttribute="bottom" constant="5.5" id="bh6-rq-xHL"/>
+                                    <constraint firstItem="XY6-j9-1WI" firstAttribute="top" secondItem="d0T-go-bY7" secondAttribute="top" constant="8" id="g8q-89-qin"/>
+                                    <constraint firstItem="4CG-8p-UFE" firstAttribute="leading" secondItem="d0T-go-bY7" secondAttribute="leading" constant="8" id="kj6-6L-bh2"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="d0T-go-bY7" firstAttribute="leading" secondItem="JLz-Eu-44w" secondAttribute="leading" id="EIp-6b-d9c"/>
+                            <constraint firstItem="d0T-go-bY7" firstAttribute="top" secondItem="JLz-Eu-44w" secondAttribute="top" id="gkD-Yi-FT1"/>
+                            <constraint firstAttribute="width" constant="444" id="occ-xY-l07"/>
+                            <constraint firstAttribute="bottom" secondItem="d0T-go-bY7" secondAttribute="bottom" id="sas-TA-bwL"/>
+                            <constraint firstAttribute="trailing" secondItem="d0T-go-bY7" secondAttribute="trailing" id="x45-ed-Jgp"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="JLz-Eu-44w" secondAttribute="bottom" id="6Qo-7B-GRC"/>
+                <constraint firstAttribute="trailing" secondItem="JLz-Eu-44w" secondAttribute="trailing" id="HYt-eS-MZd"/>
+                <constraint firstItem="JLz-Eu-44w" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Kxl-FD-3VM"/>
+                <constraint firstItem="JLz-Eu-44w" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="PBL-Gb-c09"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="444" height="51"/>
+            <connections>
+                <outlet property="containerConstraintWith" destination="occ-xY-l07" id="7qE-S0-gNr"/>
+                <outlet property="containerMessage" destination="d0T-go-bY7" id="SVG-jE-vzZ"/>
+                <outlet property="dateConstraintLeft" destination="kj6-6L-bh2" id="N5H-WD-Wlc"/>
+                <outlet property="dateView" destination="4CG-8p-UFE" id="xMt-Cf-IgK"/>
+                <outlet property="messageConstraintHeight" destination="dbr-2E-3GK" id="wTZ-yL-qhF"/>
+                <outlet property="messageConstraintLeft" destination="aTj-xr-Gyx" id="nOl-SM-qEu"/>
+                <outlet property="messageConstraintRight" destination="23O-t1-FU6" id="39X-nG-iz9"/>
+                <outlet property="messageConstraintTop" destination="g8q-89-qin" id="pQj-HV-i6o"/>
+                <outlet property="messageConstraintWidth" destination="tOr-5a-PCD" id="im6-TK-XJ2"/>
+                <outlet property="messageView" destination="XY6-j9-1WI" id="j68-QX-e2r"/>
+            </connections>
+            <point key="canvasLocation" x="-20" y="54.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

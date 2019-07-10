@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A4m-Ku-g58">
+                    <rect key="frame" x="16" y="292" width="342" height="83"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default_store_image" translatesAutoresizingMaskIntoConstraints="NO" id="iXd-ut-hg3">
+                            <rect key="frame" x="10" y="10" width="60" height="63"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="46W-ed-cg4"/>
+                                <constraint firstAttribute="height" constant="63" id="Ag0-w0-E9p"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Offer Title here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NUB-Tg-SFt">
+                            <rect key="frame" x="83" y="19" width="244" height="23"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yUg-ny-cez">
+                            <rect key="frame" x="85" y="45" width="244" height="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="-50%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GdP-ou-3lR" customClass="EdgeLabel" customModule="NearbyStores" customModuleProvider="target">
+                            <rect key="frame" x="300" y="60" width="42" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ozb-B8-hbX" customClass="GradientBGView" customModule="NearbyStores" customModuleProvider="target">
+                            <rect key="frame" x="85" y="45" width="211" height="19"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="horizontalMode" value="YES"/>
+                                <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                    <color key="value" white="1" alpha="0.75785805390000005" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                    <color key="value" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="startLocation">
+                                    <real key="value" value="0.80000000000000004"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="endLocation">
+                                    <real key="value" value="0.90000000000000002"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p7Q-1F-XlC">
+                            <rect key="frame" x="0.0" y="82" width="342" height="1"/>
+                            <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="0.5" id="ECk-RX-JpW"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="NUB-Tg-SFt" firstAttribute="leading" secondItem="iXd-ut-hg3" secondAttribute="trailing" constant="13" id="1T3-cT-tA9"/>
+                        <constraint firstItem="NUB-Tg-SFt" firstAttribute="top" secondItem="A4m-Ku-g58" secondAttribute="top" constant="19" id="2Mh-ZM-q5H"/>
+                        <constraint firstItem="yUg-ny-cez" firstAttribute="leading" secondItem="iXd-ut-hg3" secondAttribute="trailing" constant="15" id="DdZ-Wq-U1A"/>
+                        <constraint firstAttribute="bottom" secondItem="yUg-ny-cez" secondAttribute="bottom" constant="20" id="JPX-O3-Zds"/>
+                        <constraint firstItem="iXd-ut-hg3" firstAttribute="leading" secondItem="A4m-Ku-g58" secondAttribute="leading" constant="10" id="PNh-TJ-rjz"/>
+                        <constraint firstItem="yUg-ny-cez" firstAttribute="top" secondItem="NUB-Tg-SFt" secondAttribute="bottom" constant="3" id="cz1-ty-dzR"/>
+                        <constraint firstAttribute="trailing" secondItem="GdP-ou-3lR" secondAttribute="trailing" id="eEy-Mt-NaK"/>
+                        <constraint firstAttribute="trailing" secondItem="NUB-Tg-SFt" secondAttribute="trailing" constant="15" id="eOb-wR-2Ey"/>
+                        <constraint firstAttribute="trailing" secondItem="p7Q-1F-XlC" secondAttribute="trailing" id="f9E-2l-0B9"/>
+                        <constraint firstAttribute="bottom" secondItem="iXd-ut-hg3" secondAttribute="bottom" constant="10" id="pBt-fn-eFv"/>
+                        <constraint firstItem="p7Q-1F-XlC" firstAttribute="leading" secondItem="A4m-Ku-g58" secondAttribute="leading" id="qxx-CR-cGb"/>
+                        <constraint firstAttribute="trailing" secondItem="yUg-ny-cez" secondAttribute="trailing" constant="13" id="ral-8l-6BR"/>
+                        <constraint firstAttribute="bottom" secondItem="GdP-ou-3lR" secondAttribute="bottom" constant="2" id="txO-KN-Why"/>
+                        <constraint firstAttribute="bottom" secondItem="p7Q-1F-XlC" secondAttribute="bottom" id="voV-Pr-rD9"/>
+                        <constraint firstItem="iXd-ut-hg3" firstAttribute="top" secondItem="A4m-Ku-g58" secondAttribute="top" constant="10" id="wEf-3r-Y8y"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="A4m-Ku-g58" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="ZCq-ky-yrI"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="A4m-Ku-g58" secondAttribute="trailing" constant="17" id="oX8-tO-Fyl"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="A4m-Ku-g58" secondAttribute="bottom" constant="292" id="uMO-pm-IFX"/>
+                <constraint firstItem="A4m-Ku-g58" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="272" id="xdQ-vw-JtT"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="34.5" y="199.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="default_store_image" width="150" height="150"/>
+    </resources>
+</document>

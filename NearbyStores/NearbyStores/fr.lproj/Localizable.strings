@@ -1,0 +1,93 @@
+/* 
+  Localizable.strings
+  NearbyStores
+
+  Created by Amine on 6/3/18.
+  Copyright © 2018 Amine. All rights reserved.
+*/
+
+"Upcoming" = "Prochainement";
+"Sign In" = "Se connetcer";
+"Event Detail" = "Détail";
+"Edit Profile" = "Modifier le Profil";
+"Just Now" = "À l'instant";
+"less than 1KM" = "moins de 1KM";
+"People around me" = "Les gens autour de moi";
+"Nearby Events Notification" = "Notification des événements à proximité";
+"Receive notification when there is a store near you" = "Recevez un avis lorsqu'il y a un magasin près de chez vous.";
+"Enter email address" = "Entrez l'adresse email";
+"Receive notification when there is a event coming" = "Recevoir un avis lorsqu'il y a un événement à venir";
+"Don't have account?" = "Vous n'avez pas de compte ?";
+"Pick Photo" = "Choisir une photo";
+"Reload" = "Recharger";
+"Offers notification" = "Notification des offres";
+"Categories" = "Catégories";
+"Version" = "Version";
+"About us" = "A propos de nous";
+"Messenger notifications" = "Notifications de messager";
+"Thank for your review!" = "Merci pour votre avis !";
+"offers" = "offres";
+"Write Name, Address, City ..." = "Écrivez le nom, l'adresse, la ville....";
+"Send Message" = "Envoyer un message";
+"Reviews" = "Commentaires";
+"Show More Offers" = "Afficher plus d'offres";
+"Write Review..." = "Ecrire un commentaire.....";
+"Enter password" = "Entrer le mot de passe";
+"Search on" = "Rechercher sur";
+"stores" = "boutiques";
+"Offer Detail" = "Détail";
+"Enter message ..." = "Entrer le message ...";
+"Store detail" = "Détail";
+"Cancel" = "Annuler";
+"Events" = "Événements";
+"Ops!" = "Ops!";
+"Coming event notification" = "Notification d'événement à venir";
+"Enter login" = "Entrer le login";
+"Chat login" = "Chat Login";
+"Terms of use" = "Conditions d'utilisation";
+"Application Version" = "Version de l'application";
+"Rate Now" = "Évaluez maintenant";
+"Send" = "Envoyer";
+"My Events" = "Mes événements";
+"Log out" = "Déconnexion";
+"My Favourite Stores" = "Mes boutiques préférés";
+"Featured" = "Recommandé";
+"Find people around you" = "Trouver des gens autour de vous";
+"Messenger" = "Messenger";
+"Forgot password?" = "Mot de passe oublié ?";
+"Enter message..." = "Entrer le message...";
+"Receive a special offer notification" = "Recevoir un avis d'offre spéciale";
+"Receive notification when there is new messages" = "Recevoir une notification lorsqu'il y a de nouveaux messages";
+"No Result Found!" = "Aucun résultat trouvé !";
+"Store Detail" = "Détail";
+"Geo Stores" = "Géo Magasins";
+"%d stores" = "%d boutiques";
+"Pseudo" = "Pseudo";
+"Add Review" = "Ajouter un commentaire";
+"Sent message" = "Message envoyé";
+"My interesting events" = "Mes événements";
+"Manage your business" = "Gérez votre commerces";
+"Privacy Policy" = "Politique de confidentialité";
+"Offers" = "Offres";
+"Nearby stores notifications" = "Notifications des magasins à proximité";
+"KM" = "KM";
+"M" = "M";
+"Favourites" = "Favoris";
+"Setting" = "Paramètres";
+"Loading..." = "Chargement...";
+"Couldn't load data from server" = "Impossible de charger les données du serveur";
+"Enter full name" = "Entrez le nom complet";
+"Search" = "Recherche";
+"OR" = "OU";
+"Block" = "Bloquer";
+"inbox" = "boîte de réception";
+"events" = "Événements";
+
+//ADDED BY DEV
+"_Search" = "Chercher";
+"Home" = "Accueil";
+"You have %@ messages" = "Vous avez %@ messages";
+"Radius" = "Radius";
+"Save Changes" = "Sauvegarder";
+"Sign Up" = "S'inscrire";
+

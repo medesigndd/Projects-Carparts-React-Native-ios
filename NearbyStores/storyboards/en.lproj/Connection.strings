@@ -1,0 +1,54 @@
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "51z-AA-Zqf"; */
+"51z-AA-Zqf.text" = "Password";
+
+/* Class = "UITextField"; placeholder = "Enter password"; ObjectID = "5RN-u7-tTb"; */
+"5RN-u7-tTb.placeholder" = "Enter password";
+
+/* Class = "UITextField"; placeholder = "Enter password"; ObjectID = "5aw-yh-PBs"; */
+"5aw-yh-PBs.placeholder" = "Enter password";
+
+/* Class = "UILabel"; text = "OR"; ObjectID = "Dxo-ds-xA5"; */
+"Dxo-ds-xA5.text" = "OR";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "IOz-6y-SVc"; */
+"IOz-6y-SVc.text" = "Password";
+
+/* Class = "UITextField"; placeholder = "Enter email"; ObjectID = "PVc-ui-BvZ"; */
+"PVc-ui-BvZ.placeholder" = "Enter email";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "UJi-80-bfb"; */
+"UJi-80-bfb.text" = "Login";
+
+/* Class = "UITextField"; placeholder = "Enter full name"; ObjectID = "Ub5-56-98C"; */
+"Ub5-56-98C.placeholder" = "Enter full name";
+
+/* Class = "UIButton"; normalTitle = "SIGN UP"; ObjectID = "V0e-Jh-RrQ"; */
+"V0e-Jh-RrQ.normalTitle" = "SIGN UP";
+
+/* Class = "UIButton"; normalTitle = "SIGN IN"; ObjectID = "Yhd-ox-Ovu"; */
+"Yhd-ox-Ovu.normalTitle" = "SIGN IN";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "ZUB-hG-iLb"; */
+"ZUB-hG-iLb.text" = "Email";
+
+/* Class = "UIViewController"; title = "Login"; ObjectID = "ctk-hi-qeo"; */
+"ctk-hi-qeo.title" = "Login";
+
+/* Class = "UITextField"; placeholder = "Enter login or email"; ObjectID = "fvO-Sg-MdM"; */
+"fvO-Sg-MdM.placeholder" = "Enter login or email";
+
+/* Class = "UITextField"; placeholder = "Enter login"; ObjectID = "gFm-7h-X0H"; */
+"gFm-7h-X0H.placeholder" = "Enter login";
+
+/* Class = "UIButton"; normalTitle = "Forgot Password ?"; ObjectID = "ked-DK-Ujz"; */
+"ked-DK-Ujz.normalTitle" = "Forgot Password ?";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "nZC-xq-6hD"; */
+"nZC-xq-6hD.text" = "Login";
+
+/* Class = "UIButton"; normalTitle = "SIGN UP"; ObjectID = "pEi-4v-J1q"; */
+"pEi-4v-J1q.normalTitle" = "SIGN UP";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "vnt-WG-5mx"; */
+"vnt-WG-5mx.text" = "Name";

@@ -1,0 +1,93 @@
+/* 
+  Localizable.strings
+  NearbyStores
+
+  Created by Amine on 6/3/18.
+  Copyright © 2018 Amine. All rights reserved.
+*/
+
+"Upcoming" = "Upcoming";
+"Sign In" = "Sign In";
+"Event Detail" = "Detail";
+"Edit Profile" = "Edit Profile";
+"Just Now" = "Just Now";
+"less than 1KM" = "less than 1KM";
+"People around me" = "People around me";
+"Nearby Events Notification" = "Nearby Events Notification";
+"Receive notification when there is a store near you" = "Receive notification when there is a store near you";
+"Enter email address" = "Enter email address";
+"Receive notification when there is a event coming" = "Receive notification when there is a event coming";
+"Don't have account?" = "Don't have account?";
+"Pick Photo" = "Pick Photo";
+"Reload" = "Reload";
+"Offers notification" = "Offers notification";
+"Categories" = "Categories";
+"Version" = "Version";
+"About us" = "About us";
+"Messenger notifications" = "Messenger notifications";
+"Thank for your review!" = "Thank for your review!";
+"offers" = "offers";
+"Write Name, Address, City ..." = "Write Name, Address, City ...";
+"Send Message" = "Send Message";
+"Reviews" = "Reviews";
+"Show More Offers" = "Show More Offers";
+"Write Review..." = "Write Review...";
+"Enter password" = "Enter password";
+"Search on" = "Search on";
+"stores" = "stores";
+"Offer Detail" = "Detail";
+"Enter message ..." = "Enter message ...";
+"Store detail" = "Detail";
+"Close" = "Close";
+"Events" = "Events";
+"Ops!" = "Ops!";
+"Coming event notification" = "Coming event notification";
+"Enter login" = "Enter login";
+"Chat login" = "Chat Login";
+"Terms of use" = "Terms of use";
+"Application Version" = "Application Version";
+"Rate Now" = "Rate Now";
+"Send" = "Send";
+"My Events" = "My Events";
+"Log out" = "Log out";
+"My Favourite Stores" = "My Favourite Stores";
+"Featured" = "Featured";
+"Find people around you" = "Find people around you";
+"Messenger" = "Messenger";
+"Forgot password?" = "Forgot password?";
+"Enter message..." = "Enter message...";
+"Receive a special offer notification" = "Receive a special offer notification";
+"Receive notification when there is new messages" = "Receive notification when there is new messages";
+"No Result Found!" = "No Result Found!";
+"Store Detail" = "Detail";
+"Geo Stores" = "Geo Stores";
+"%d stores" = "%d stores";
+"Pseudo" = "Pseudo";
+"Add Review" = "Add Review";
+"Sent message" = "Sent message";
+"My interesting events" = "My interesting events";
+"Manage your business" = "Manage your business";
+"Privacy Policy" = "Privacy Policy";
+"Offers" = "Offers";
+"Nearby stores notifications" = "Nearby stores notifications";
+"KM" = "KM";
+"M" = "M";
+"Favourites" = "Favourites";
+"Setting" = "Setting";
+"Loading..." = "Loading...";
+"Couldn't load data from server" = "Couldn't load data from server";
+"Enter full name" = "Enter full name";
+"Search" = "Search";
+"OR" = "OR";
+"Block" = "Block";
+"inbox" = "inbox";
+"events" = "events";
+
+//ADDED BY DEV
+"_Search" = "Search";
+"Home" = "Home";
+"You have %@ messages" = "You have %@ messages";
+"Radius" = "Radius";
+"Save Changes" = "Save Changes";
+"Sign Up" = "Sign Up";
+

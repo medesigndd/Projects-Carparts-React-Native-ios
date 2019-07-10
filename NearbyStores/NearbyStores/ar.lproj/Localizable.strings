@@ -1,0 +1,92 @@
+/*
+ Localizable.strings
+ NearbyStores
+ 
+ Created by Amine on 6/3/18.
+ Copyright © 2018 Amine. All rights reserved.
+ */
+
+"Upcoming" = "قريبا";
+"Sign In" = "تسجيل الدخول";
+"Event Detail" = "تفاصيل الحدث";
+"Edit Profile" = "تعديل الملف الشخصي";
+"Just Now" = "الآن فقط";
+"less than 1KM" = "أقل من 1 كم";
+"People around me" = "الناس من حولي";
+"Nearby Events Notification" = "إخطار الأحداث القريبة";
+"Receive notification when there is a store near you" = "تلقي إشعار عندما يكون هناك متجر بالقرب منك";
+"Enter email address" = "أدخل عنوان البريد الالكتروني";
+"Receive notification when there is a event coming" = "تلقي إخطار عندما يكون هناك حدث قادم";
+"Don't have account?" = "لا تملك حساب؟";
+"Pick Photo" = "اختيار صورة";
+"Reload" = "إعادة تحميل";
+"Offers notification" = "إخطار العروض";
+"Categories" = "الاقسام";
+"Version" = "الإصدار";
+"About us" = "معلومات عنا";
+"Messenger notifications" = "إشعارات المراسلة";
+"Thank for your review!" = "شكرا على تقيم!";
+"offers" = "عروض";
+"Write Name, Address, City ..." = "اكتب الاسم ، العنوان ، المدينة ...";
+"Send Message" = "ارسل رسالة";
+"Reviews" = "التعليقات";
+"Show More Offers" = "عرض المزيد من العروض";
+"Write Review..." = "...أكتب تعليق";
+"Enter password" = "أدخل كلمة المرور";
+"Search on" = "البحث على";
+"stores" = "متاجر";
+"Offer Detail" = " تفاصيل العرض ";
+"Enter message ..." = "أدخل رسالة ...";
+"Store detail" = "تفاصيل المتجر";
+"Cancel" = "إلغاء";
+"Events" = "أحداث";
+"Ops!" = "عدرا";
+"Coming event notification" = "إشعار للٱحدث القادمة";
+"Enter login" = "إسم المستخدم";
+"Chat login" = "دخول الدردشة";
+"Terms of use" = "تعليمات الاستخدام";
+"Application Version" = "إصدار التطبيق";
+"Rate Now" = "قيم الآن";
+"Send" = "إرسال";
+"My Events" = "أحداثي";
+"Log out" = "تسجيل الخروج";
+"My Favourite Stores" = "المتاجر المفضلة";
+"Featured" = "متبث";
+"Find people around you" = "ابحث عن أشخاص من حولك";
+"Messenger" = "الرسائل";
+"Forgot password?" = "هل نسيت كلمة المرور؟";
+"Enter message..." = "أدخل الرسالة ...";
+"Receive a special offer notification" = "تلقي إخطار للعروض الخاصة";
+"Receive notification when there is new messages" = "تلقي إخطار عند وجود رسائل جديدة";
+"No Result Found!" = "لا توجد نتائج";
+"Store Detail" = "تفاصيل المتجر";
+"Geo Stores" = "متاجر على الخريطة";
+"%d stores" = "متاجر %d";
+"Pseudo" = "الإسم";
+"Add Review" = "أضف مراجعة";
+"Sent message" = "الرسالة المرسلة";
+"My interesting events" = "أحداثي";
+"Manage your business" = "إدارة عملك";
+"Privacy Policy" = "سياسة الخصوصية";
+"Offers" = "عروض";
+"Nearby stores notifications" = "إشعارات المتاجر القريبة";
+"KM" = "كلم";
+"M" = "متر";
+"Favourites" = "المفضلة";
+"Setting" = "ضبط";
+"Loading..." = "جار التحميل...";
+"Couldn't load data from server" = "تعذر تحميل البيانات من الخادم";
+"Enter full name" = "أدخل الاسم الكامل";
+"Search" = "بحث";
+"OR" = "أو";
+"Block" = "منع";
+"inbox" = "صندوق الوارد";
+"events" = "أحداث";
+
+//ADDED BY DEV
+"_Search" = "بحث";
+"Home" = "الرئيسية";
+"You have %@ messages" = "لديك @% رسائل";
+"Radius" = "البعد";
+"Save Changes" = "حفظ التغييرات";
+"Sign Up" = "سجل";

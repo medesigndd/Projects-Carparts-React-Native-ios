@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kcS-e8-mUD">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="9Z6-ao-3zg">
+            <objects>
+                <viewController storyboardIdentifier="splash" id="kcS-e8-mUD" customClass="SplashViewController" customModule="NearbyStores" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oHy-9e-Uw6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_screen" translatesAutoresizingMaskIntoConstraints="NO" id="37k-HC-bwk">
+                                <rect key="frame" x="80.5" y="164.5" width="160" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="8aj-X1-LCF"/>
+                                    <constraint firstAttribute="height" constant="170" id="s2m-EY-dC7"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="37k-HC-bwk" firstAttribute="centerX" secondItem="9v9-Dy-T3h" secondAttribute="centerX" id="UqZ-1N-P5z"/>
+                            <constraint firstItem="37k-HC-bwk" firstAttribute="centerY" secondItem="9v9-Dy-T3h" secondAttribute="centerY" id="hs1-4D-rm0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9v9-Dy-T3h"/>
+                    </view>
+                    <connections>
+                        <outlet property="app_icon_height" destination="s2m-EY-dC7" id="X96-qt-X0R"/>
+                        <outlet property="app_icon_splash" destination="37k-HC-bwk" id="Lde-Km-htN"/>
+                        <outlet property="app_icon_width" destination="8aj-X1-LCF" id="psr-eI-HCV"/>
+                        <segue destination="2kb-3m-Ab9" kind="show" identifier="mainSender" id="vqa-JG-ZUV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AKg-aA-y3z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="121.875" y="188.75"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="fky-m2-oe5">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="2kb-3m-Ab9" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TUX-4X-bVq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="878" y="59"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splash_screen" width="76" height="76"/>
+    </resources>
+</document>

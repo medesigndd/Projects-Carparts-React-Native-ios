@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="storeCellId" id="gTV-IL-0wX" customClass="StoreCell" customModule="NearbyStores" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="278"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="278"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YXP-qX-eFj" userLabel="container">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="278"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ci1-gT-JnD">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UWa-bt-2Rz">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                                        <color key="backgroundColor" red="0.90200666243654826" green="0.90200666243654826" blue="0.90200666243654826" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="40 KM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0go-1q-YWa" customClass="EdgeLabel" customModule="NearbyStores" customModuleProvider="target">
+                                        <rect key="frame" x="338.5" y="186.5" width="37.5" height="14.5"/>
+                                        <color key="backgroundColor" red="1" green="0.077762488099999999" blue="0.13321114719999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4 offers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i3d-xS-OLi" customClass="EdgeLabel" customModule="NearbyStores" customModuleProvider="target">
+                                        <rect key="frame" x="294" y="186.5" width="44.5" height="14.5"/>
+                                        <color key="backgroundColor" red="1" green="0.077762488099999999" blue="0.13321114719999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-50 %" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dw3-nX-pBb" customClass="EdgeLabel" customModule="NearbyStores" customModuleProvider="target">
+                                        <rect key="frame" x="330.5" y="0.0" width="44.5" height="19"/>
+                                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Featured" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gTZ-BV-jMt" customClass="EdgeLabel" customModule="NearbyStores" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="48" height="14"/>
+                                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="12"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="gTZ-BV-jMt" firstAttribute="top" secondItem="Ci1-gT-JnD" secondAttribute="top" id="6SB-e1-Mcd"/>
+                                    <constraint firstAttribute="trailing" secondItem="UWa-bt-2Rz" secondAttribute="trailing" id="6cT-H0-GmT"/>
+                                    <constraint firstAttribute="trailing" secondItem="dw3-nX-pBb" secondAttribute="trailing" id="8lN-xa-z3r"/>
+                                    <constraint firstItem="UWa-bt-2Rz" firstAttribute="top" secondItem="Ci1-gT-JnD" secondAttribute="top" id="CVr-RV-969"/>
+                                    <constraint firstItem="gTZ-BV-jMt" firstAttribute="leading" secondItem="Ci1-gT-JnD" secondAttribute="leading" id="HZC-4E-oSR"/>
+                                    <constraint firstAttribute="bottom" secondItem="i3d-xS-OLi" secondAttribute="bottom" constant="-1" id="N6h-QE-Zr8"/>
+                                    <constraint firstAttribute="bottom" secondItem="0go-1q-YWa" secondAttribute="bottom" constant="-1" id="XQL-to-CdL"/>
+                                    <constraint firstAttribute="trailing" secondItem="0go-1q-YWa" secondAttribute="trailing" constant="-1" id="Zbr-NS-6Vu"/>
+                                    <constraint firstItem="UWa-bt-2Rz" firstAttribute="leading" secondItem="Ci1-gT-JnD" secondAttribute="leading" id="c2W-Gm-9rV"/>
+                                    <constraint firstItem="0go-1q-YWa" firstAttribute="leading" secondItem="i3d-xS-OLi" secondAttribute="trailing" id="dMD-62-EMD"/>
+                                    <constraint firstAttribute="bottom" secondItem="UWa-bt-2Rz" secondAttribute="bottom" id="mLq-31-CZS"/>
+                                    <constraint firstItem="dw3-nX-pBb" firstAttribute="top" secondItem="Ci1-gT-JnD" secondAttribute="top" id="pVo-hf-b87"/>
+                                    <constraint firstAttribute="height" constant="200" id="vaJ-Gg-N28"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sgL-hd-CWM">
+                                <rect key="frame" x="0.0" y="200" width="375" height="78"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="5AW-9b-OrJ">
+                                        <rect key="frame" x="10" y="10" width="355" height="58"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KFC Casablanca" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FhC-bi-P0g">
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="20"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dEh-LU-APk">
+                                                <rect key="frame" x="0.0" y="20" width="355" height="22"/>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adresse nr 65, Casablanca" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vd0-m1-shU">
+                                                <rect key="frame" x="0.0" y="42" width="355" height="16"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <color key="textColor" white="0.34283357771260997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="Vd0-m1-shU" firstAttribute="leading" secondItem="5AW-9b-OrJ" secondAttribute="leading" id="6MK-UA-A9k"/>
+                                            <constraint firstAttribute="trailing" secondItem="Vd0-m1-shU" secondAttribute="trailing" id="WpT-Ag-pnW"/>
+                                        </constraints>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rDA-5p-x0z" customClass="GradientBGView" customModule="NearbyStores" customModuleProvider="target">
+                                        <rect key="frame" x="-102" y="45" width="355" height="16"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="horizontalMode" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                                <color key="value" white="1" alpha="0.39807306851311952" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                                <color key="value" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="startLocation">
+                                                <real key="value" value="0.80000000000000004"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="endLocation">
+                                                <real key="value" value="0.90000000000000002"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="5AW-9b-OrJ" secondAttribute="bottom" constant="10" id="2VZ-an-Idp"/>
+                                    <constraint firstItem="Vd0-m1-shU" firstAttribute="leading" secondItem="rDA-5p-x0z" secondAttribute="trailing" constant="-243" id="EYT-o3-Oly"/>
+                                    <constraint firstItem="Vd0-m1-shU" firstAttribute="top" secondItem="rDA-5p-x0z" secondAttribute="bottom" constant="-9" id="FJ2-aJ-qay"/>
+                                    <constraint firstItem="5AW-9b-OrJ" firstAttribute="top" secondItem="sgL-hd-CWM" secondAttribute="top" constant="10" id="Q36-nu-vtd"/>
+                                    <constraint firstItem="rDA-5p-x0z" firstAttribute="width" secondItem="Vd0-m1-shU" secondAttribute="width" id="X3q-Dr-cLq"/>
+                                    <constraint firstItem="rDA-5p-x0z" firstAttribute="height" secondItem="Vd0-m1-shU" secondAttribute="height" id="ZKS-1a-8H4"/>
+                                    <constraint firstAttribute="trailing" secondItem="5AW-9b-OrJ" secondAttribute="trailing" constant="10" id="ao8-53-v6K"/>
+                                    <constraint firstAttribute="height" constant="78" id="dQN-Mg-MRL"/>
+                                    <constraint firstItem="5AW-9b-OrJ" firstAttribute="leading" secondItem="sgL-hd-CWM" secondAttribute="leading" constant="10" id="pPw-Mi-JsZ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="sgL-hd-CWM" secondAttribute="trailing" id="2pW-JT-Z5h"/>
+                            <constraint firstItem="Ci1-gT-JnD" firstAttribute="top" secondItem="YXP-qX-eFj" secondAttribute="top" id="6rE-MQ-tQv"/>
+                            <constraint firstItem="Ci1-gT-JnD" firstAttribute="leading" secondItem="YXP-qX-eFj" secondAttribute="leading" id="O7I-cR-bvW"/>
+                            <constraint firstItem="sgL-hd-CWM" firstAttribute="leading" secondItem="YXP-qX-eFj" secondAttribute="leading" id="aMI-5b-ubP"/>
+                            <constraint firstAttribute="bottom" secondItem="sgL-hd-CWM" secondAttribute="bottom" id="oKq-Eq-kXY"/>
+                            <constraint firstAttribute="trailing" secondItem="Ci1-gT-JnD" secondAttribute="trailing" id="rHZ-w2-TTN"/>
+                            <constraint firstItem="sgL-hd-CWM" firstAttribute="top" secondItem="Ci1-gT-JnD" secondAttribute="bottom" id="wDh-lU-BMI"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w07-JI-NVd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="278"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="YXP-qX-eFj" secondAttribute="trailing" id="9yM-UJ-ewv"/>
+                <constraint firstItem="YXP-qX-eFj" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="NCm-tS-l3P"/>
+                <constraint firstItem="YXP-qX-eFj" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Riz-wC-u1V"/>
+                <constraint firstAttribute="bottom" secondItem="YXP-qX-eFj" secondAttribute="bottom" id="hiH-Nb-dMm"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="375" height="278"/>
+            <connections>
+                <outlet property="address" destination="Vd0-m1-shU" id="dNn-2T-SdB"/>
+                <outlet property="addressCover" destination="rDA-5p-x0z" id="0hv-M3-Pv6"/>
+                <outlet property="distance" destination="0go-1q-YWa" id="Jmq-oC-m2K"/>
+                <outlet property="featured" destination="gTZ-BV-jMt" id="asi-2z-LrZ"/>
+                <outlet property="highlightedCover" destination="w07-JI-NVd" id="P1D-ZN-xVK"/>
+                <outlet property="image" destination="UWa-bt-2Rz" id="rC8-QY-go5"/>
+                <outlet property="infosContainer" destination="sgL-hd-CWM" id="CcP-66-lia"/>
+                <outlet property="lastOffer" destination="dw3-nX-pBb" id="MZ2-Wl-xCO"/>
+                <outlet property="offers" destination="i3d-xS-OLi" id="Zoy-fQ-b8q"/>
+                <outlet property="ratingContainer" destination="dEh-LU-APk" id="e8f-Ol-g6e"/>
+                <outlet property="sale" destination="dw3-nX-pBb" id="hbE-zL-hVc"/>
+                <outlet property="title" destination="FhC-bi-P0g" id="Ymu-fc-AOJ"/>
+            </connections>
+            <point key="canvasLocation" x="-396.5" y="-40"/>
+        </collectionViewCell>
+    </objects>
+</document>
